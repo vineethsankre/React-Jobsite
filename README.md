@@ -318,58 +318,6 @@ Returns a response containing the job details
 </details>
 
 
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- Render `Home` Route component when the path in URL matches `/`
-- Render `Login` Route component when the path in URL matches `/login`
-- Render `Jobs` Route component when the path in URL matches `/jobs`
-- Render `Job Item Details` Route component when the path in URL matches `/jobs/:id`
-- Render `Not Found` Route component when the path in URL matches `/not-found`
-- No need to use the `BrowserRouter` in `App.js` as we have already included in `index.js`
-
-- User credentials
-
-  ```text
-   username: rahul
-   password: rahul@2021
-
-  ```
-
-- Wrap the `Loader` component with an HTML container element and add the `data-testid` attribute value as **loader** to it
-
-  ```jsx
-  <div className="loader-container" data-testid="loader">
-    <Loader type="ThreeDots" color="#ffffff" height="50" width="50" />
-  </div>
-  ```
-
-- **Jobs Route**
-
-  - The HTML button element with search icon should have the `data-testid` attribute value as **searchButton** to it
-
-  ```jsx
-  <button type="button" data-testid="searchButton">
-    <BsSearch className="search-icon" />
-  </button>
-  ```
-
-  - The profile image should have the alt as **profile**
-  - The company logo images in Jobs Route should have the alt as **company logo**
-
-- **Job Details Route**
-  - The company logo image should have the alt as **job details company logo**
-  - The life at company image should have the alt as **life at company**
-  - The skill images should have the alt as the value of the key `name` from each object in the **skills** list received from the job details response
-  - The company logo image in similar job item should have the alt as **similar job company logo**
-  </details>
-
 ### Resources
 
 <details>
