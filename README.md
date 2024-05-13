@@ -317,15 +317,6 @@ Returns a response containing the job details
 
 </details>
 
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- To convert a list of items as a comma-separated string we can use the array method `join()`
-
-</details>
 
 ### Important Note
 
