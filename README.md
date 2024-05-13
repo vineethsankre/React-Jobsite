@@ -410,7 +410,6 @@ Returns a response containing the job details
 <div style="background-color: #f1f5f9; width: 150px; padding: 10px; color: black">Hex: #f1f5f9</div>
 <div style="background-color: #fbbf24; width: 150px; padding: 10px; color: white">Hex: #fbbf24</div>
 <div style="background-color: #202020; width: 150px; padding: 10px; color: white">Hex: #202020</div>
-<div style="background-color: #cbd5e1; width: 150px; padding: 10px; color: black">Hex: #cbd5e1</div>
 <br/>
 </details>
 
