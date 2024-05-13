@@ -418,9 +418,3 @@ Returns a response containing the job details
 <br/>
 </details>
 
-<details>
-<summary>Font-families</summary>
-
-- Roboto
-</details>
-
