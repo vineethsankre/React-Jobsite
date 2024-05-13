@@ -414,7 +414,6 @@ Returns a response containing the job details
 <div style="background-color: #7e858e; width: 150px; padding: 10px; color: black">Hex: #7e858e</div>
 <div style="background-color: #121212; width: 150px; padding: 10px; color: white">Hex: #121212</div>
 <div style="background-color: #475569; width: 150px; padding: 10px; color: white">Hex: #475569</div>
-<div style="background-color: #ff0b37; width: 150px; padding: 10px; color: white">Hex: #ff0b37</div>
 <br/>
 </details>
 
